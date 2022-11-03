@@ -217,7 +217,8 @@ rameters are compressed by 1.5x with speech quality maintained.</div>
     
     </div>
     
-    <div><h2>Text: 昨日这名伤者与<b>医生</b>全部被警方依法刑事拘留。</div>
+    <div><h2>Text1: 昨日这名伤者与<b>医生</b>全部被警方依法刑事拘留。</div>
+    <div><h2>Text2: 昨日这名伤者与<b>医生</b>全部被警方依法刑事拘留。</div>
     <table>
       <thead>
         <tr>
@@ -227,11 +228,14 @@ rameters are compressed by 1.5x with speech quality maintained.</div>
           <th style="background-color: #ffffff;">1.0</th>
           <th style="background-color: #ffebe6;">0.8</th>
           <th style="background-color: #ffc2b3;">0.6</th>
+          <th style="background-color: #e6f0ff;">1.2</th>
+          <th style="background-color: #ffffff;">1.0</th>
+          <th style="background-color: #ffebe6;">0.8</th>
         </tr>
       </thead>
       <tbody>
             <tr>
-          <th style="background-color: #f2f2f2;">Ground truth</th>
+          <th style="background-color: #f2f2f2;">text1</th>
           <td> - </td>
           <td> - </td>
           <td><audio controls=""><source src="audio1/text1_GT.wav" type="audio/wav"></audio></td>
@@ -239,29 +243,14 @@ rameters are compressed by 1.5x with speech quality maintained.</div>
           <td> - </td>
         </tr>
         <tr>
-          <th style="background-color: #f2f2f2;">Baseline</th>
+          <th style="background-color: #f2f2f2;">text2</th>
           <td><audio controls=""><source src="audio1/text1_bs_1.4.wav" type="audio/wav"></audio></td>
           <td><audio controls=""><source src="audio1/text1_bs_1.2.wav" type="audio/wav"></audio></td>
           <td><audio controls=""><source src="audio1/text1_bs_1.0.wav" type="audio/wav"></audio></td>
           <td><audio controls=""><source src="audio1/text1_bs_0.8.wav" type="audio/wav"></audio></td>
            <td><audio controls=""><source src="audio1/text1_bs_0.6.wav" type="audio/wav"></audio></td>
         </tr>
-        <tr>
-          <th style="background-color: #f2f2f2;">Proposed_NoVQ</th>
-          <td><audio controls=""><source src="audio1/text1_NO_1.4.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_NO_1.2.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_NO_1.0.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_NO_0.8.wav" type="audio/wav"></audio></td>
-           <td><audio controls=""><source src="audio1/text1_NO_0.6.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <th style="background-color: #f2f2f2;">Proposed_VQ</th>
-           <td><audio controls=""><source src="audio1/text1_VQ_1.4.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_VQ_1.2.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_VQ_1.0.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_VQ_0.8.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="audio1/text1_VQ_0.6.wav" type="audio/wav"></audio></td>
-        </tr>
+        
       </tbody>
     </table>
     <br>
